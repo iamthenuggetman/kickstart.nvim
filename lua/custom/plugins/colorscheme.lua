@@ -4,6 +4,7 @@ return {
 
   config = function()
     require('cyberdream').setup {
+      variant = 'auto',
       styles = {
         transparent = true,
         italic_comments = true,
